@@ -1,0 +1,26 @@
+.form_style{
+    max-width:70%; 
+    max-height:auto;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.show_password_login{
+    margin-left:125px;
+    margin-top:5px;
+}
+@media screen and (max-width: 480px) {
+.email_login{
+    display:flex;
+    flex-direction:column;
+}
+.password_login{
+    display:flex;
+    flex-direction:column;
+}
+.show_password_login{
+    margin-left:0px;
+    
+}
+.p_login_container{
+    margin-top:-20px;
+}
+}

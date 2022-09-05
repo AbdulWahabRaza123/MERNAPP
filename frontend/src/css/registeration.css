@@ -1,0 +1,70 @@
+.form_registration{
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 10px 10px 5px lightblue;
+}
+h1{
+    font-family:sans-serif;
+    color:#61DBFB;
+    -webkit-text-stroke: 0.1px #61DBFB;
+    font-weight: bolder;
+}
+.image img{
+    width:100%;
+    height:auto;
+
+}
+.margin_set_top{
+    margin-top:-30px;
+}
+form input[type="text"],input[type="email"],input[type="password"]{
+    width:70%; 
+    height:50px;
+    border:none;
+    border-bottom: 1px solid #61DBFB;
+    margin-left:auto;
+    margin-right:auto;
+}
+form input[type="submit"]{
+    margin-top:20px;
+    margin-left:21px;
+    width:70%;
+}
+form input[type="submit"]:hover{
+    background-color:green;
+}
+input{
+    margin:7px;
+    outline:none;
+}
+.show_password{
+    margin-left:-60px;
+}
+@media screen and (max-width: 480px) {
+    .form_registration{
+        display:flex;
+        flex-direction: column;
+    }
+    .image img{
+       width:0%;
+       height:auto;
+       display:none;
+    }
+    form input[type="text"],input[type="email"],input[type="password"]{
+        width:100%;
+        height:auto;
+    }
+    .margin_set_top{
+        margin-top:10px;
+    }
+    input[type="submit"]{
+        width:100%;
+        height:auto;
+    }
+    .show_password{
+    margin-left:3px;
+    }
+  }
+  

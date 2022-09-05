@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+.nav_change_side{
+    margin-left:auto;
+}
+.brand_name{
+    font-weight: bolder;
+    font-size:35px;
+    border-bottom: none !important;
+    font-family: 'Qwitcher Grypen', cursive !important;
+}
+.brand_name img{
+    max-width:50px;
+    max-height:50px;
+}
+.active{
+    color:#61DBFB !important;
+    font-weight:bold;
+    border-bottom: 1px solid #61DBFB;
+}

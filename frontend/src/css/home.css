@@ -1,0 +1,22 @@
+.home_content{
+    margin-top:15%;
+    margin-left:-200px;
+   
+}
+.home_show2{
+    background-color:aliceblue;
+    width:50%;
+    padding-top:21%;
+    padding-bottom:21.5%;
+}
+@media screen and (max-width: 480px) {
+    .home_show2{
+        display: none;
+    }
+    .home_content{
+        margin-top:50%;
+        margin-left:auto;
+        margin-right: auto;
+       
+    }
+}
